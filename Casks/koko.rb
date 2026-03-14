@@ -7,7 +7,7 @@ cask "koko" do
   desc "Unified workspace for Claude Code sessions"
   homepage "https://github.com/edalee/koko"
 
-  app "Kõkõ.app"
+  app "Koko.app"
 
   zap trash: [
     "~/Library/Application Support/koko",
