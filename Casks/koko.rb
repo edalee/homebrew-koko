@@ -1,6 +1,6 @@
 cask "koko" do
-  version "0.2.0"
-  sha256 "e49c401fa7609327ff583177795cdd1caa99c7ff5547c8abba35c2442b7227c1"
+  version "0.2.1"
+  sha256 "c92d9da885633e23cedd714b777d6df2bb62d476eaf239b0ef3b86168a0e2660"
 
   url "https://github.com/edalee/koko/releases/download/v#{version}/Koko-v#{version}-macOS.dmg"
   name "Kõkõ"
