@@ -1,13 +1,16 @@
 cask "koko" do
-  version "0.2.4"
-  sha256 "fb2b737062228213a5f6e04aef19b1193a05493482526584287036de758118e2"
+  version "0.2.5"
+  sha256 "0d47db80fbb37766d99dc0e445ab5e35b58c6a265542067b7646d4518dc5cc4c"
 
-  url "https://github.com/edalee/koko/releases/download/v#{version}/Koko-v#{version}-macOS.zip"
+  url "https://github.com/edalee/koko/releases/download/v#{version}/Koko-v#{version}-macOS.pkg"
   name "Koko"
   desc "Unified workspace for Claude Code sessions"
   homepage "https://github.com/edalee/koko"
 
-  app "Koko.app"
+  pkg "Koko-v#{version}-macOS.pkg"
+
+  uninstall pkgutil: "com.edalee.koko",
+  delete:  "/Applications/Koko.app"
 
   zap trash: [
     "~/Library/Application Support/koko",
