@@ -1,9 +1,9 @@
 cask "koko" do
-  version "0.2.2"
-  sha256 "9f90de4b6efb46db064f8c82120dc91ffe932e5c14bc4cb872b0752233704347"
+  version "0.2.3"
+  sha256 "290d02776b2ed15126cd83b3e3a34bd726eb29752f9938f674916425d82afb56"
 
-  url "https://github.com/edalee/koko/releases/download/v#{version}/Koko-v#{version}-macOS.dmg"
-  name "Kõkõ"
+  url "https://github.com/edalee/koko/releases/download/v#{version}/Koko-v#{version}-macOS.zip"
+  name "Koko"
   desc "Unified workspace for Claude Code sessions"
   homepage "https://github.com/edalee/koko"
 
