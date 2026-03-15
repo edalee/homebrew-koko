@@ -1,9 +1,9 @@
 class Koko < Formula
   desc "Unified workspace for Claude Code sessions"
   homepage "https://github.com/edalee/koko"
-  url "https://github.com/edalee/koko/releases/download/v0.2.8/Koko-v0.2.8-macOS.tar.gz"
-  sha256 "d753aeb08ffadc987f4333a4d80d265241b2457cd0fd6d2db10eadaba150067f"
-  version "0.2.8"
+  url "https://github.com/edalee/koko/releases/download/v0.2.9/Koko-v0.2.9-macOS.tar.gz"
+  sha256 "96eb47f0a2e08181600b21cac5cc12603042419b32a011802d456ecce20266ff"
+  version "0.2.9"
 
   depends_on :macos
 
